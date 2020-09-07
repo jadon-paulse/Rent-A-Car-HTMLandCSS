@@ -71,9 +71,9 @@ body {
     width: 40%;
     background-color: #f2f2f2;
     margin-left: 33%;
-    margin-top: 13%;
+    margin-top: 5%;
     text-align: center;
-    /* padding: 5%; */
+    padding: 1%;
   }
   
   .card2:hover {
@@ -247,6 +247,11 @@ body {
       width: 100%;
       display: block;
       margin-bottom: 20px;
+    }
+
+    .card3 {
+        margin-top: -5%;
+      /* padding: 5%; */
     }
   }
   
