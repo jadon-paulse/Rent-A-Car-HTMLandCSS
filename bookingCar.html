@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bookingStyles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Rent-A-Car</title>
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="login.html">Login/Register</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+      <div class="card3">
+        <h2>Details on the car</h2>
+          <div class="container">
+
+            <img src="https://budgetassets.abgemea.com/dam/budget/car/kia/picanto/168x136/kia_picanto.jpg" alt="car1">
+            <div class="text">
+                <p>4 person</p>
+                <p>5 doors</p>
+            </div>
+
+            <div class="user-rating">
+                <span class="heading">User Rating</span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star"></span>
+                <p>4.1 average based on 254 reviews.</p>
+                <hr style="border:3px solid #f1f1f1">
+            </div>
+
+            <form>
+
+                <div class="row">
+                    <div class="col-25">
+                      <label for="start">Start Date:</label>
+                    </div>
+                    <div class="col-75">
+                        <!-- <label for="birthday"></label> -->
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-25">
+                      <label for="end">End Date:</label>
+                    </div>
+                    <!-- <div class="col-75">
+                      <input type="password" id="pwd" name="pwd" minlength="8">
+                    </div> -->
+                    <div class="col-75">
+                        <!-- <label for="birthday"></label> -->
+                        <input type="date" id="birthday" name="birthday">
+                    </div>
+                  </div>
+                  <div class="row">
+                    <a href="listings_page.html"><button>Login</button></a>
+                  </div>
+
+
+                <!-- <label for="birthday">Start Date:</label>
+                <input type="date" id="birthday" name="birthday">
+                <input type="submit" value="Submit">
+                <label for="birthday">End Date:</label>
+                <input type="date" id="birthday" name="birthday">
+                <input type="submit" value="Submit"> -->
+              </form>
+          </div>
+      </div>
+
+
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+</body>
+</html>

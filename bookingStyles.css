@@ -1,0 +1,18 @@
+.card3 .container .text{
+    margin-left: 40%;
+    margin-top: -10%;
+    margin-bottom: 5%;
+}
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .fa {
+    font-size: 25px;
+  }
+  
+  .checked {
+    color: orange;
+  }
