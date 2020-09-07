@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="login.html">Login/Register</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+    <div class="card2">
+      <h2>Login</h2>
+        <div class="container">
+          <form action="/action_page.php">
+            <div class="row">
+              <div class="col-25">
+                <label for="fname">First Name:</label>
+              </div>
+              <div class="col-75">
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-25">
+                <label for="lname">Password:</label>
+              </div>
+              <div class="col-75">
+                <input type="password" id="pwd" name="pwd" minlength="8">
+              </div>
+            </div>
+            <!-- <div class="row">
+              <div class="col-25">
+                <label for="country">Province</label>
+              </div>
+              <div class="col-75">
+                <select id="country" name="country">
+                  <option value="australia">Western Cape</option>
+                  <option value="canada">Eastern Cape</option>
+                  <option value="usa">Northern Cape</option>
+                </select>
+              </div>
+            </div> -->
+            <div class="row">
+              <input type="submit" value="Submit">
+            </div>
+            <p><a href="register.html">If you do not have an account register here</a></p>
+          </form>
+        </div>
+    </div>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>
+</body>
+</html>
