@@ -11,6 +11,11 @@ body {
 
   }
 
+/* .greeting{
+  color: #f2f2f2;
+  text-align: center;
+} */
+
   .topnav {
     overflow: hidden;
     background-color: #6F2232;
@@ -59,9 +64,10 @@ body {
     transition: 0.3s;
     width: 40%;
     background-color: #f2f2f2;
-    margin-left: 35%;
-    margin-top: 15%;
+    margin-left: 33%;
+    margin-top: 10%;
     text-align: center;
+    padding: 1%;
     /* padding: 5%; */
   }
 
@@ -192,7 +198,7 @@ body {
     margin-top: 6px;
   }
   
-  .row:after {
+  .row-listing:after {
     content: "";
     display: table;
     clear: both;
@@ -204,9 +210,9 @@ body {
   padding: 0 10px;
 }
 
-.row {margin: 0 5px;}
+/* .row {margin: 0 0px;} */
 
-.row:after {
+.row-listing:after {
   content: "";
   display: table;
   clear: both;
@@ -223,8 +229,12 @@ body {
         background-image: none;
     }
     .card2{
-      background-color: aliceblue;
-      margin: 30%;
+      /* background-color: aliceblue; */
+      /* margin: 30%; */
+      width: 100vw;
+      margin-top: 25%;
+      margin-left: -0.1%;
+      padding: 5%;
     }
     .card{
       /* background-color: aliceblue; */
@@ -234,9 +244,9 @@ body {
 
     .card3 {
       width: 100vw;
-      margin-top: 50%;
+      margin-top: 0%;
       margin-left: -0.1%;
-      /* padding: 5%; */
+      padding: 5%;
     }
 
     .col-25, .col-75, input[type=submit] {
@@ -246,12 +256,12 @@ body {
     .column {
       width: 100%;
       display: block;
-      margin-bottom: 20px;
+      margin-bottom: -50%;
+      
     }
 
-    .card3 {
-        margin-top: -5%;
-      /* padding: 5%; */
+    .row-listing{
+      margin-top: -50%;
     }
   }
   
