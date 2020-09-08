@@ -1,0 +1,6 @@
+.row-listing1:after {
+    content: "";
+    display: table;
+    clear: both;
+    /* margin-top: 122%; */
+  }
